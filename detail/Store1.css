@@ -1,0 +1,125 @@
+body{
+    background-image: url(dog);
+}
+
+.GoodDetail{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.GoodDetailimage{
+   
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+ 
+}
+
+
+.GoodDetailcategory{
+    vertical-align:  top    ;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    
+    
+    line-height:30px ;
+    font-size: 20px;
+}
+
+.GoodDescription{
+    font-size: 20px;
+    vertical-align:top    ;
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin: 10px;
+    color: rgb(233, 222, 201);
+   
+    line-height:40px ;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.GoodPrice{
+    color: brown;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+.Inputtext{
+    height: 20px;
+    display: inline;
+    padding: 2px;
+    margin: 2;
+    text-align: left;
+    margin: top;
+}
+
+
+
+.Inputbuttom{
+    height: 20px;
+    display: inline;
+    padding: 2px;
+    margin: 2;
+    text-align: left;
+    margin: top;
+    background-color: gray;
+    color: wheat;
+}
+
+.G1{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+.G2{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+
+.G3{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+.G4{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+
+.color{ 
+    background-color: #f5b7b1     ;
+}
+
+.size{ 
+    background-color:#f5b7b1     ;
+}
+
+
+.grade{ 
+    border: 10px solid white;
+    background-color: #f5b7b1     ;
+}
+
+
+
+.version{ 
+    background-color:#f5b7b1        ;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='storebar3.css'>
+    <script src='main.js'></script>
+    <style>
+        body{
+    background-image: url(argguf);
+    color: aliceblue;
+}
+
+
+.input-group mb-3{
+    border: 10px solid white;
+}
+.GoodDetail{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.GoodDetailimage{
+   
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+ 
+}
+
+
+.GoodDetailcategory{
+    vertical-align:  top    ;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    
+    
+    line-height:30px ;
+    font-size: 20px;
+}
+
+.GoodDescription{
+    font-size: 20px;
+    vertical-align:top    ;
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin: 10px;
+    color: rgb(233, 222, 201);
+   
+    line-height:40px ;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.GoodPrice{
+    color: white;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+.Inputtext{
+    height: 20px;
+    display: inline;
+    padding: 2px;
+    margin: 2;
+    text-align: left;
+    margin: top;
+}
+
+
+
+.Inputbuttom{
+    height: 20px;
+    display: inline;
+    padding: 2px;
+    margin: 2;
+    text-align: left;
+    margin: top;
+    background-color: skyblue;
+    color: black;
+}
+
+.G1{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+.G2{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+
+.G3{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+.G4{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+
+.color{ 
+    background-color: #f5b7b1     ;
+}
+
+.size{ 
+    background-color:#f5b7b1     ;
+}
+
+
+.grade{ 
+    border: 10px solid white;
+    background-color: #f5b7b1     ;
+}
+
+
+
+.version{ 
+    background-color:#f5b7b1        ;
+}
+    </style>
+</head>
+<body>
+    <div class="GoodDetail">
+
+        <div class="GoodDetailimage">
+            <img src="argb1.png" class="G3">
+            <img src="arg2.png" class="G1">
+            
+            <img src="3.png" class="G2">
+            <img src="arg4.png" class="G4">
+        </div>
+
+        <div class="GoodDetailcategory">
+            <br><span> <b style="font-size: 30px;color: goldenrod;">Team :<strong style="color: skyblue ; text-align: center;">Argentina National Football</strong></b> </span>
+            <br><span style="color: goldenrod;">Avalaible Color : 
+                <select>
+                    <option class="color" ><del>Red</del></option>
+                    <option class="color">Blue</option>
+                    <option class="color">Black</option>
+                    <option class="color">Green</option>
+            </select></span>
+            <br><span style="color: goldenrod;">Size : <select >
+                <option class="size">S</option>
+                <option class="size">M</option>
+                <option class="size">L</option>
+                <option class="size">XL</option>
+                <option class="size">XXL</option>
+            </select></span>
+            <br><span style="color: skyblue;">Version : 
+                <select >
+                    <option class="version">2024</option>
+                    <option class="version">2023</option>
+                    <option class="version">2022</option>
+                    <option class="version">2021</option>
+                    <option class="version">2020</option>
+                </select>
+            </span>
+            <br><span style="color: skyblue;"x>Grade : 
+                <select >
+                    <option class="grade">Player Version</option>
+                    <option class="grade">Fan Version</option>
+                    <option class="grade">A</option>
+                    <option class="grade">B</option>
+                    <option class="grade">C</option>
+                </select>
+            </span>
+            <br>
+            <hr>
+            
+            <b style="color: skyblue;">Quantity</b> <input type="text" value="1" class="Inputtext">
+            <input type="button" class="Inputbuttom" value="ADD to Cart">
+            <span class="GoodPrice" style="background-color:skyblue; color: black    ;">129.99$</span>
+            <br>
+            <div class="GoodDescription" style=" text-align: center;">
+                <b style="font-size: 40px;color: 	skyblue";>
+                    <p id="text" style="color: e;">Description</p>
+
+                    <script>
+                        setTimeout(() => {
+                            document.getElementById('text').style.color = 'goldenrod    ';
+                        }, 800);
+                    </script>
+                      </b> 
+                <h4><b  style="text-align: center; color: #aed6f1    ; font-size: larger; margin-top: 10px; text-decoration: underline;" ><strong style="font-size: larger;"><p> Unite with</p> the Heart of Argentina.</strong></b></h4>
+               <b> <p style="color: white;"> <strong>-Bold Blue & White Stripes</strong>Celebrate Argentina’s rich football history.</p>
+                <p style="color: skyblue;"><strong>-For the True Fan</strong>Wear the pride of Argentina .</p>
+                
+                 <p style="color: goldenrod;"><strong style="color: goldenrod; font-size: larger;">-Messi’s Legacy</strong>Wear the same shirt that including the GOAT .</p>
+                 <p style="color: goldenrod;"><strong>-Champion Spirit</strong>Show your pride for the 2022 World Cup</p> 
+                <p style="color: white;"><strong><a href="https://argentinasuperliga.com/133-argentina-national-football-team?srsltid=AfmBOoq5Wo-D4ktn_riAnu43XFmg4cJSDnb7OjR4YkYvOwHF4WrwRYes/enenshop-now" style="color: brown;">GO-GET-GOAT-NOW  </a> and join the Argentina football legacy!</strong></p>
+            </b>
+            </div>
+    
+            </div>
+</body>
+</html> 

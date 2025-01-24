@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='storebar3.css'>
+    <script src='main.js'></script>
+    <style>
+        body{
+    background-image: url(germangif);
+    color: aliceblue;
+}
+
+
+.input-group mb-3{
+    border: 10px solid white;
+}
+.GoodDetail{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.GoodDetailimage{
+   
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+ 
+}
+
+
+.GoodDetailcategory{
+    vertical-align:  top    ;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    
+    
+    line-height:30px ;
+    font-size: 20px;
+}
+
+.GoodDescription{
+    font-size: 20px;
+    vertical-align:top    ;
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin: 10px;
+    color: rgb(233, 222, 201);
+   
+    line-height:40px ;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.GoodPrice{
+    color: white;
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid gray;
+}
+
+.Inputtext{
+    height: 20px;
+    display: inline;
+    padding: 2px;
+    margin: 2;
+    text-align: left;
+    margin: top;
+}
+
+
+
+.Inputbuttom{
+    height: 20px;
+    display: inline;
+    padding: 2px;
+    margin: 2;
+    text-align: left;
+    margin: top;
+    background-color: gray;
+    color: wheat;
+}
+
+.G1{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+.G2{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+
+.G3{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+.G4{
+    border: 1px solid snow;
+    border-radius: 10px;
+    width:35%;
+}
+
+
+.color{ 
+    background-color: #f5b7b1     ;
+}
+
+.size{ 
+    background-color:#f5b7b1     ;
+}
+
+
+.grade{ 
+    border: 10px solid white;
+    background-color: #f5b7b1     ;
+}
+
+
+
+.version{ 
+    background-color:#f5b7b1        ;
+}
+    </style>
+</head>
+<body>
+    <div class="GoodDetail">
+
+        <div class="GoodDetailimage">
+            <img src="germanb1.png" class="G2">
+            <img src="german2.png" class="G1">
+            
+            <img src="germanb3.png" class="G3">
+            <img src="gemranb4.png" class="G4">
+        </div>
+
+        <div class="GoodDetailcategory">
+            <br><span> <b style="font-size: 30px;color: brown;">Team :<strong style="color: goldenrod   ;"> Germany National Football </strong></b> </span>
+            <br><span style="color: brown;">Avalaible Color : 
+                <select>
+                    <option class="color" ><del>Red</del></option>
+                    <option class="color">Blue</option>
+                    <option class="color">Black</option>
+                    <option class="color">Green</option>
+            </select></span>
+            <br><span style="color: brown;">Size : <select >
+                <option class="size">S</option>
+                <option class="size">M</option>
+                <option class="size">L</option>
+                <option class="size">XL</option>
+                <option class="size">XXL</option>
+            </select></span>
+            <br><span style="color: brown;">Version : 
+                <select >
+                    <option class="version">2024</option>
+                    <option class="version">2023</option>
+                    <option class="version">2022</option>
+                    <option class="version">2021</option>
+                    <option class="version">2020</option>
+                </select>
+            </span>
+            <br><span style="color: brown;"x>Grade : 
+                <select >
+                    <option class="grade">Player Version</option>
+                    <option class="grade">Fan Version</option>
+                    <option class="grade">A</option>
+                    <option class="grade">B</option>
+                    <option class="grade">C</option>
+                </select>
+            </span>
+            <br>
+            <hr>
+            
+            <b style="color: brown;">Quantity</b> <input type="text" value="1" class="Inputtext">
+            <input type="button" class="Inputbuttom" value="ADD to Cart">
+            <span class="GoodPrice" style="background-color:brown; color: white;">78.99$</span>
+            <br>
+            <div class="GoodDescription" style=" text-align: center;">
+                <b style="font-size: 40px;color: black";>
+                    <p id="text" style="color: black;">Description</p>
+
+                    <script>
+                        setTimeout(() => {
+                            document.getElementById('text').style.color = 'white';
+                        }, 500);
+                    </script>
+                      </b> 
+                <h4><b  style="text-align: center; color: red; font-size: larger; margin-top: 10px; text-decoration: underline;" ><strong style="font-size: larger;">Celebrate with German Football.</strong></b></h4>
+               <b> <p style="color: goldenrod;"> <strong>-</strong>Designed with the iconic black,red,gold colors,pride of Germany.</p>
+                <p style="color: goldenrod;"><strong>-</strong>Perfect for cheering during international matches.</p>
+                
+                 <p style="color: goldenrod;"><strong>-</strong>Available in a variety of sizes for fans of all ages.</p>
+                 <p style="color: goldenrod;">-Made with <strong>100% recycled polyester,</strong>ensuring comfort while supporting sustainability.</p>
+                 <p style="color: goldenrod;"><strong>-Lightweight and breathable fabric</strong> keeps you cool no matter the action.</p>
+                 <p style="color: goldenrod;"><strong>-Officially licensed </strong>with the Germany National crest and sponsor logos.</p> 
+                 <p style="color: goldenrod;"><strong>-</strong>A must-have for any fan of Die Mannschaft, whether at the stadium.</p>
+                <p style="color: goldenrod;"><strong><a href="https://en.wikipedia.org/wiki/Germany_national_football_team/enenshop-now" style="color: rgb(39, 0, 233);">ORDER-NOW</a> and show your team spirit!</strong></p>
+            </b>
+            </div>
+    
+            </div>
+</body>
+</html>
